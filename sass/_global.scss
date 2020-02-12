@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: #000;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body,
+input,
+button {
+  color: #fff;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

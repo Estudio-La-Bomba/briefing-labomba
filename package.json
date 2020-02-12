@@ -1,0 +1,12 @@
+{
+  "name": "briefing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -watch --include-path scss sass/briefing.scss assets/css/briefing.min.css --output-style compressed"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
