@@ -65,12 +65,26 @@
 
 @media (max-width: 414px) {
   body {
-    padding: 3em;
+    padding: 3em 2em;
   }
 
   nav {
+    p {
+      display: none;
+    }
+
     svg {
       width: 150px;
+    }
+  }
+
+  header {
+    .brackground {
+      &_eye,
+      &_detail_magenta,
+      &_detail_amarelo {
+        display: none;
+      }
     }
   }
 }
